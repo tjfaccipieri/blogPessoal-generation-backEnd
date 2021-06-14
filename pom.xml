@@ -53,10 +53,17 @@
 			<scope>runtime</scope>
 		</dependency>
 		
-		<dependency>
+	<!-- My SQL Local -->
+		<!-- dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<scope>runtime</scope>
+		</dependency>  -->
+		
+		<!-- Postgres SQL Heroku -->
+		<dependency> 
+			<groupId>org.postgresql</groupId> 
+			<artifactId>postgresql</artifactId> 
 		</dependency>
 		
 		<dependency>
